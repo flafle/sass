@@ -1,0 +1,28 @@
+header {
+    height: 300px;
+    color:black;
+    font-family:monospace;
+    font-size: 20px;
+    text-align: center;
+    background: $colordos;
+    nav {
+        height: 80%;
+    }
+    ul {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li {
+    margin: 0 20px;
+    list-style: none;
+    }
+    .select {
+            background: $colorcuatro;
+            padding: 10px 30px;
+            color:blueviolet;
+            border-radius: 20px;
+    }
+}
+
